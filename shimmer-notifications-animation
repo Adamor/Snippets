@@ -1,0 +1,77 @@
+
+/* Shimmer Notifications
+********************************** */
+
+
+/*@-webkit-keyframes shimmer {
+  0% { background-position: -40% 0%; background-size: 100% 100%; }
+  100% { background-position: 1300% 100%; background-size: 0% 100%; }
+}*/
+@-moz-keyframes shimmer {
+  0% { background-position: -40% 0%; background-size: 100% 100%; }
+  100% { background-position: 1300% 100%; background-size: 0% 100%; }
+}
+@-o-keyframes shimmer {
+  0% { background-position: -40% 0%; background-size: 100% 100%; }
+  100% { background-position: 1300% 100%; background-size: 0% 100%; }
+}
+@keyframes shimmer {
+  0% { background-position: -40% 0%; background-size: 100% 100%; }
+  100% { background-position: 1300% 100%; background-size: 0% 100%; }
+}
+
+.classname { 
+  background-image: -moz-linear-gradient(-45deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 25%, rgba(255,255,255,0.85) 60%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(255,255,255,0)), color-stop(25%,rgba(255,255,255,0)), color-stop(60%,rgba(255,255,255,0.85)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+  background-image: -webkit-linear-gradient(-45deg, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 25%,rgba(255,255,255,0.85) 60%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+  background-image: -o-linear-gradient(-45deg, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 25%,rgba(255,255,255,0.85) 60%,rgba(255,255,255,0) 100%); /* Opera11.10+ */
+  background-image: -ms-linear-gradient(-45deg, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 25%,rgba(255,255,255,0.85) 60%,rgba(255,255,255,0) 100%); /* IE10+ */
+  background-image: linear-gradient(-45deg, rgba(255,255,255,0) 0%,rgba(255,255,255,0) 25%,rgba(255,255,255,0.85) 60%,rgba(255,255,255,0) 100%); /* W3C */
+  background-repeat: no-repeat;
+  background-color: rgba(30, 142, 200, 0.2);
+  /*-webkit-animation: shimmer 3s infinite forwards cubic-bezier(0.1, 0.7, 1.0, 0.1);*/ /* Safari 4+ */
+  -moz-animation:    shimmer 3s infinite forwards cubic-bezier(0.1, 0.7, 1.0, 0.1); /* Fx 5+ */
+  -o-animation:      shimmer 3s infinite forwards cubic-bezier(0.1, 0.7, 1.0, 0.1); /* Opera 12+ */
+  animation:         shimmer 3s infinite forwards cubic-bezier(0.1, 0.7, 1.0, 0.1); /* IE 10+ */
+  color: rgb(72, 67, 56);
+}
+
+.classname{
+  color: rgb(72, 67, 56);
+}
+
+.classname{
+  background: -webkit-gradient(linear, 100% 0, 0 0, from(rgba(212, 237, 188, 0)), color-stop(0.5, rgba(212, 237, 188, 0.5)));
+  background: -webkit-linear-gradient(to right, rgba(212, 237, 188, 0), rgba(212, 237, 188, 0.5) 50%);
+  background: -moz-linear-gradient(to right, rgba(212, 237, 188, 0), rgba(212, 237, 188, 0.5) 50%);
+  background: -o-linear-gradient(to right, rgba(212, 237, 188, 0), rgba(212, 237, 188, 0.5) 50%);
+  background: linear-gradient(to right, rgba(212, 237, 188, 0), rgba(212, 237, 188, 0.5) 50%);
+  content: "";
+  height: 1.875em;
+  position: absolute;
+    bottom: 0;
+    right: 0;
+  text-align: right;
+  width: 20%;
+}
+
+.classname{
+  color: rgb(72, 67, 56);
+}
+
+.classname:hover, .classname.active{
+ background-position: -102% 0;   
+}
+
+@media \\0 screen {
+  .classname .new{
+  background-image: none;
+  }
+}
+
+@media all and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { 
+  .classname.new {
+  background-image: none;
+  }
+}
+
