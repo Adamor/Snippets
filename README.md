@@ -1,7 +1,4 @@
-Snippets
+Snippets & Job Assignments
 ========
 
-Public JS and CSS code.
-
-
-Planning to setup a demo page for these by April.
+Starting to catalog both interesting job snippets and any job assignments I get while interviewing.

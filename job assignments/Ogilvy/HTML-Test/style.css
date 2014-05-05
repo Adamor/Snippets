@@ -1,0 +1,100 @@
+/* Initial Setup Style 
+******************************* */
+
+.header-area {
+  background: #00BFFF;
+  border-bottom: 20px solid #8B4513;
+}
+
+.wrapper {
+    width: 90%; 
+    margin: 0 5%;
+}
+
+.evens-and-odds{
+  margin: 0;
+  padding: 0;
+  list-style: none outside none;
+}
+
+.evens-and-odds li:nth-child(even){
+  background: #8B4513;
+}
+
+.evens-and-odds li:nth-child(odd){
+  background: #00BFFF;
+}
+
+.round-up{
+  border: 2px solid #000;
+  border-radius: 5px;
+}
+
+.center-me{
+  text-align: center;
+}
+
+.center:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.centered {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.image-area img{
+  width: 100%;
+}
+
+
+/* Mobile Styles 
+******************************* */
+
+.main {
+  padding: 30px 0;
+}
+
+.wrapper {
+width: 90%;
+margin: 0 5%;
+}
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (min-width: 768px) {
+  section{
+    float: left;
+    width: 25%;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  
+      .wrapper{
+        width:1026px; /* 1140px - 10% for margins */
+        margin:0 auto;
+    }
+}
+
+/* General Help */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}

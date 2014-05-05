@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hangman Game JS/Jquery</title>
+</head>
+<body>
+  <header class="header">Hangman</header>
+  <section class="game-content">
+    <div>
+      <span class="remaining"></span>
+      <span id="currentWord"></span>
+    </div>
+    <hr class="divide">
+    <div>
+      <input type="text" id="newWord" placeholder="Add a new word for your friend to guess!">
+      <button id="newWordSubmit"></button>
+    </div>
+    <div>
+      <input type="text" id="guessedLetter">
+      <button id="guessLetterSubmit"></button>
+    </div>
+  </section>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
