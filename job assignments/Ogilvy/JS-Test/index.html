@@ -2,23 +2,23 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Hangman Game JS/Jquery</title>
+  <title>Simple Hangman Game JS/Jquery</title>
 </head>
 <body>
-  <header class="header">Hangman</header>
+  <header class="header"><h1>Hangman</h1></header>
   <section class="game-content">
     <div>
-      <span class="remaining"></span>
       <span id="currentWord"></span>
+      <span id="remaining">You have 6 guesses remaining.</span>
     </div>
     <hr class="divide">
     <div>
       <input type="text" id="newWord" placeholder="Add a new word for your friend to guess!">
-      <button id="newWordSubmit"></button>
+      <button id="newWordSubmit">Submit</button>
     </div>
     <div>
       <input type="text" id="guessedLetter">
-      <button id="guessLetterSubmit"></button>
+      <button id="guessLetterSubmit">Submit</button>
     </div>
   </section>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>

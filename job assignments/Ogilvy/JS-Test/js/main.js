@@ -12,46 +12,57 @@ function eventListeners() {
   $('#guessLetterSubmit').on('click', guessLetter);
 };
 
-var wordToGuess = ''
-var remainingGuesses = 6;
-var underscore = [];
-var output = '';
+var wordToGuess = '',
+    remainingGuesses = 6,
+    underscore = [];
+    currentWord = $('#currentWord');
 
 // Functionality
 
 function addNewWord(){
-  wordToGuess = $('#newWord').val();
+  wordToGuess = $('#newWord').val().toLowerCase();
   currentGuesses = wordToGuess.split('');
   for (var i = 0; i < currentGuesses.length; i++) {
     underscore.push('_');
   }
-  for ( var x = 0; x < underscore.length; x++) {
-    output += underscore[x] + ' ';
-  }
-  $('#currentWord').html(output);
+  currentWord.html(underscore.join(' '));
+  console.log(wordToGuess);
   return wordToGuess, currentGuesses;
 };
 
 function guessLetter(input){
   input = $('#guessedLetter').val();
-  var foundLetter = false;
-  // $('.remaining').html('You have' + ' ' + remainingGuesses + ' ' + ' left.');
-    for(var x = 0; x < currentGuesses.length; x++){
-      if(input === wordToGuess[x]){
+  var wrongGuess = true;
+
+    for(var x = 0; x < wordToGuess.length; x++){
+    // if the selected letter matches one in the word to guess,
+    // replace the underscore
+      if(wordToGuess.charAt(x) == input.toLowerCase()){
           underscore[x] = input;
           console.log(underscore);
-          foundLetter = true;
+          wrongGuess = false;
+          hasWon();
       }
-      else if(!foundLetter){
-        remainingGuesses --;
-        console.log(remainingGuesses);
-      }
-      else if(remainingGuesses === 0){
-        console.log('You Lose! Good Day Sir!');
-      }
+      currentWord.html(underscore.join(' '));
     }
-    // $('#currentWord').replaceWith();
+      if(wrongGuess){
+        remainingGuesses --;
+        $('#remaining').html('You have' + ' ' + remainingGuesses + ' ' + 'guesses remaining.' );
+        hasLost();
+      }
 }
+
+function hasWon(){
+      if(currentWord.html() === wordToGuess){
+        alert('You won! Get down dog!')
+      }
+    };
+
+function hasLost(){
+        if(remainingGuesses <= 0){
+          alert('You lose. Good day Sir!');
+        } 
+      };
 
     init();
 });
