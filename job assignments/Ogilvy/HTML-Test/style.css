@@ -49,7 +49,7 @@
 }
 
 .center-me{
-  display: table; 
+  display: table; /* IE8+ support */
   height: 300px;
   width:100%;
 }
