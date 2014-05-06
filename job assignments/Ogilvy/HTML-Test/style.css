@@ -17,8 +17,6 @@
 
 .main-container{
   min-height: 100%;
-  height: auto !important;
-  height: 100%;
   margin: 0 auto -4em;
 }
 
@@ -51,21 +49,13 @@
 }
 
 .center-me{
+  display: table; 
   height: 300px;
-  text-align: center;
   width:100%;
 }
 
-.center-me:before {
-  content: '';
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  margin-right: -0.25em; /* Adjusts for spacing */
-}
-
 .center {
-  display: inline-block;
+  display: table-cell;
   vertical-align: middle;
 }
 
@@ -82,12 +72,12 @@
 }
 
 .wrapper {
-width: 90%;
-margin: 0 5%;
+  margin: 0 5%;
+  width: 90%;
 }
 
 section{
-    margin: 1% 1%;
+  margin: 1% 1%;
 }
 
 @media only screen and (min-width: 480px) {
