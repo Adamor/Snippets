@@ -17,6 +17,7 @@ var wordToGuess = '',
     underscore = [],
     currentGuesses = [],
     newWordToGuess = false,
+    wrongGuess = true,
     currentWord = $('#currentWord');
 
 // Functionality
@@ -46,25 +47,25 @@ function addNewWord(){
 
 function guessLetter(input){
   input = $('#guessedLetter').val().toLowerCase();
-  var wrongGuess = true;
+
     for(var x = 0; x < wordToGuess.length; x++){
     // if the selected letter matches one in the word to guess,
     // replace the underscore
       if(wordToGuess.charAt(x) == input){
           underscore[x] = input;
           wrongGuess = false;
-          console.log(wrongGuess);
       }
 
+      console.log(wrongGuess);
       currentWord.html(underscore.join(' '));
     }
 
       if(wrongGuess){
+
         remainingGuesses --;
         $('#remaining').html('You have' + ' ' + remainingGuesses + ' ' + 'guesses remaining.' );
+        wrongGuess = true; 
         hasLost();
-        wrongGuess = true;
-        console.log(wrongGuess);
       }
       else{
         hasWon();

@@ -1,11 +1,11 @@
 /* Initial Setup Style 
 ******************************* */
 
-body{
+.responsive{
   background: #FFFFF0;
 }
 
-.header-area, .footer-area {
+.header-area {
   background: #00BFFF;
   border-bottom: 20px solid #8B4513;
 }
@@ -13,6 +13,22 @@ body{
 .wrapper {
     width: 90%; 
     margin: 0 5%;
+}
+
+.main-container{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -4em;
+}
+
+.footer-area {
+  background: #00BFFF;
+  border-top: 20px solid #8B4513;
+}
+
+.footer-area, .push{
+  height: 4em;
 }
 
 .evens-and-odds{
@@ -94,7 +110,7 @@ section{
   
   .wrapper{
     margin:0 auto;
-    width:1026px; /* 1140px - 10% for margins */
+    width:1026px;
   }
 
   section{
