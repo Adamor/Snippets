@@ -1,7 +1,11 @@
 /* Initial Setup Style 
 ******************************* */
 
-.header-area {
+body{
+  background: #FFFFF0;
+}
+
+.header-area, .footer-area {
   background: #00BFFF;
   border-bottom: 20px solid #8B4513;
 }
@@ -27,14 +31,16 @@
 
 .round-up{
   border: 2px solid #000;
-  border-radius: 5px;
+  border-radius: 5px; /* Will degrade to square corners for IE8 -- If rounded corners needed I could uss CSS3 Pie. */
 }
 
 .center-me{
+  height: 300px;
   text-align: center;
+  width:100%;
 }
 
-.center:before {
+.center-me:before {
   content: '';
   display: inline-block;
   height: 100%;
@@ -42,7 +48,7 @@
   margin-right: -0.25em; /* Adjusts for spacing */
 }
 
-.centered {
+.center {
   display: inline-block;
   vertical-align: middle;
 }
@@ -64,23 +70,38 @@ width: 90%;
 margin: 0 5%;
 }
 
-@media only screen and (min-width: 480px) {
+section{
+    margin: 1% 1%;
+}
 
+@media only screen and (min-width: 480px) {
+   section{
+    float: left;
+    margin: 1% 1%;
+    width: 48%;
+  }
 }
 
 @media only screen and (min-width: 768px) {
   section{
     float: left;
-    width: 25%;
+    margin: 0 1%;
+    width: 23%;
   }
 }
 
 @media only screen and (min-width: 1140px) {
   
-      .wrapper{
-        width:1026px; /* 1140px - 10% for margins */
-        margin:0 auto;
-    }
+  .wrapper{
+    margin:0 auto;
+    width:1026px; /* 1140px - 10% for margins */
+  }
+
+  section{
+    float: left;
+    margin: 0 1%;
+    width: 23%;
+  }
 }
 
 /* General Help */
@@ -98,3 +119,51 @@ margin: 0 5%;
 .clearfix {
     *zoom: 1;
 }
+
+
+/* IE8 Exceptions */
+    
+    /*The following is better done with JS/Jquery but for thie excercise doing a CSS Hack*/
+    /*aka $("li:nth-child(2)").css( "color", "red" );*/
+
+    .lt-ie8.evens-and-odds li:first-child{
+      background: #00BFFF;
+    }
+
+    .lt-ie8.evens-and-odds li:first-child + li {
+      background: #8B4513;
+    }
+    
+    .lt-ie8.evens-and-odds li:first-child + li + li {
+      background: #00BFFF;
+    }
+    
+    .lt-ie8.evens-and-odds li:first-child + li +li + li{
+      background: #8B4513;
+    }
+
+    .lt-ie8.evens-and-odds li:first-child + li +li + li + li{
+      background: #00BFFF;
+    }
+
+    .lt-ie8.evens-and-odds li:first-child + li +li + li + li + li{
+      background: #8B4513;
+    }
+
+    .lt-ie8.evens-and-odds li:first-child + li +li + li + li + li + li{
+      background: #00BFFF;
+    }
+
+    .lt-ie8.evens-and-odds li:first-child + li +li + li + li + li + li + li{
+      background: #8B4513;
+    }
+
+    .lt-ie8.evens-and-odds li:first-child + li +li + li + li + li + li + li + li{
+      background: #00BFFF;
+    }
+
+    .lt-ie8.evens-and-odds li:first-child + li +li + li + li + li + li + li + li + li{
+      background: #8B4513;
+    } 
+
+

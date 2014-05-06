@@ -1,0 +1,22 @@
+.main-game-content span{
+  display: block;
+  float: left;
+  height: 20px;
+  width: 250px;
+}
+
+.divide{
+  clear: both;
+}
+
+div{
+  padding: 0 20px;
+}
+
+input{
+  margin: 10px 0;
+}
+
+#guessedLetter{
+  width: 20px;
+}

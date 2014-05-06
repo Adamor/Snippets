@@ -3,22 +3,24 @@
 <head>
   <meta charset="UTF-8">
   <title>Simple Hangman Game JS/Jquery</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="header"><h1>Hangman</h1></header>
   <section class="game-content">
-    <div>
+    <div class="main-game-content">
       <span id="currentWord"></span>
-      <span id="remaining">You have 6 guesses remaining.</span>
+      <span id="remaining">You have 9 guesses remaining.</span>
     </div>
     <hr class="divide">
     <div>
-      <input type="text" id="newWord" placeholder="Add a new word for your friend to guess!">
-      <button id="newWordSubmit">Submit</button>
+      <input type="text" id="newWord" placeholder="Add a new word!">
+      <button id="newWordSubmit">New Word</button>
     </div>
     <div>
-      <input type="text" id="guessedLetter">
-      <button id="guessLetterSubmit">Submit</button>
+      <input type="text" id="guessedLetter" maxlength="1">
+      <button id="guessLetterSubmit">Make a Guess</button>
     </div>
   </section>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
