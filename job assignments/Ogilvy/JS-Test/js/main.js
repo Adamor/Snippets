@@ -16,13 +16,13 @@ var wordToGuess = '',
     remainingGuesses = 9, // Gallow, gallow, rope, head, body, arm, arm, leg,leg
     underscore = [],
     currentGuesses = [],
+    allGuesses = [],
     newWordToGuess = false,
     currentWord = $('#currentWord');
 
 // Functionality
 
 function addNewWord(){
-  //add reset check
 
     if(!newWordToGuess){
       createWord();
@@ -31,13 +31,16 @@ function addNewWord(){
     }
     
     else{
-      //reset game then call create word
+      
+      //Reset game
       currentWord.empty();
       underscore.length = 0;
-      console.log(underscore);
+      allGuesses.length = 0;
       $(currentGuesses).empty();
       remainingGuesses = 9;
       $('#remaining').html('You have' + ' ' + remainingGuesses + ' ' + 'guesses remaining.' );
+      
+      // Create new word
       createWord();
       newWordToGuess = false;
       return currentGuesses;
@@ -47,28 +50,40 @@ function addNewWord(){
 function guessLetter(input){
   input = $('#guessedLetter').val().toLowerCase();
   var wrongGuess = true;
+  var dupCheck = $.inArray(input, allGuesses);
+
     for(var x = 0; x < wordToGuess.length; x++){
     // if the selected letter matches one in the word to guess,
     // replace the underscore
       if(wordToGuess.charAt(x) == input){
           underscore[x] = input;
+          allGuesses.push(input);
           wrongGuess = false;
-          console.log(wrongGuess);
       }
 
       currentWord.html(underscore.join(' '));
     }
 
-      if(wrongGuess){
+      if(wrongGuess && dupCheck < 0){
+        console.log(dupCheck);
+        allGuesses.push(input);
+
+        console.log(allGuesses);
         remainingGuesses --;
         $('#remaining').html('You have' + ' ' + remainingGuesses + ' ' + 'guesses remaining.' );
+        
         hasLost();
         wrongGuess = true;
-        console.log(wrongGuess);
       }
+
+      else if(dupCheck >= 0){
+        alert('Already used that letter man! No worries, I stopped the counter. Wooh close one.')
+      }
+      
       else{
         hasWon();
       }
+      clearInput();
 };
 
 function createWord(){
@@ -81,12 +96,11 @@ function createWord(){
   
   currentWord.html(underscore.join(' '));
   clearInput();
-  console.log(currentWord.html());    
   newWordToGuess = true;
 }
 
 function clearInput(){
-  $('#newWord').val('');
+  $('.refresh').val('');
 };
 
 function hasWon(){
