@@ -2,9 +2,6 @@
 
 angular
   .module('angularAppApp', [
-    'ngCookies',
-    'ngResource',
-    'ngSanitize',
     'ngRoute'
   ])
   .config(function ($routeProvider) {

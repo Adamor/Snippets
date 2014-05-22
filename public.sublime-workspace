@@ -4,6 +4,102 @@
 		"selected_items":
 		[
 			[
+				"fa",
+				"false"
+			],
+			[
+				"Al",
+				"allGuesses"
+			],
+			[
+				"all",
+				"allGuesses"
+			],
+			[
+				"table",
+				"table-cell"
+			],
+			[
+				"clear",
+				"clearInput"
+			],
+			[
+				"rest",
+				"reset"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"cur",
+				"currentGuesses"
+			],
+			[
+				"cure",
+				"currentGuesses"
+			],
+			[
+				"to",
+				"toLowerCase"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"no",
+				"none"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"found",
+				"foundLetter"
+			],
+			[
+				"op",
+				"output"
+			],
+			[
+				"al",
+				"alphaSearch"
+			],
+			[
+				"cons",
+				"console"
+			],
+			[
+				"word",
+				"wordToGuess"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"rem",
+				"remainingGuesses"
+			],
+			[
+				"gues",
+				"guessLetterSubmit"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"curren",
+				"currentGuesses"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
 				"lini",
 				"line_padding_bottom"
 			],
@@ -216,10 +312,6 @@
 				"block"
 			],
 			[
-				"in",
-				"inline-block"
-			],
-			[
 				"fu",
 				"function"
 			],
@@ -320,10 +412,6 @@
 				"max-width"
 			],
 			[
-				"le",
-				"letter-spacing"
-			],
-			[
 				"ti",
 				"title"
 			],
@@ -334,10 +422,6 @@
 			[
 				"grou",
 				"group-chat-icon"
-			],
-			[
-				"no",
-				"notify"
 			],
 			[
 				"i",
@@ -366,10 +450,6 @@
 			[
 				"openC",
 				"openChatListWrapper"
-			],
-			[
-				"op",
-				"opacity"
 			],
 			[
 				"m",
@@ -412,10 +492,6 @@
 				"render"
 			],
 			[
-				"dis",
-				"disconnectedView"
-			],
-			[
 				"resi",
 				"resizeSnapToWindow"
 			],
@@ -438,125 +514,33 @@
 			[
 				"con",
 				"containment"
-			],
-			[
-				"win",
-				"windowHeight"
-			],
-			[
-				"wind",
-				"windowWidth"
-			],
-			[
-				"wi",
-				"width"
-			],
-			[
-				"off",
-				"offSet"
-			],
-			[
-				"co",
-				"color"
-			],
-			[
-				"t",
-				"transparent"
-			],
-			[
-				"fl",
-				"float"
-			],
-			[
-				"li",
-				"live-tray"
-			],
-			[
-				"pa",
-				"padding"
-			],
-			[
-				"ro",
-				"roster-name-text"
-			],
-			[
-				"bo",
-				"bottom"
-			],
-			[
-				"s",
-				"status-image-container"
-			],
-			[
-				"th",
-				"thumbnail"
-			],
-			[
-				"int",
-				"initialUserSearchDisabled"
-			],
-			[
-				"mo",
-				"mobileNumber"
-			],
-			[
-				"tie",
-				"tieLineNumber"
-			],
-			[
-				"jid",
-				"jid"
-			],
-			[
-				"cur",
-				"cursor"
-			],
-			[
-				"block",
-				"inline-block"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "vertical-center.css",
+			"file": "job assignments/Ogilvy/JS-Test/js/main.js",
 			"settings":
 			{
-				"buffer_size": 441,
+				"buffer_size": 2664,
 				"line_ending": "Unix",
-				"name": "/* This parent can be any width and height */"
+				"name": "var hangman = function(){"
 			}
 		},
 		{
-			"file": "css-switcher.js",
+			"file": "job assignments/Ogilvy/JS-Test/style.css",
 			"settings":
 			{
-				"buffer_size": 2714,
+				"buffer_size": 207,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "shimmer-notifications-animation",
+			"file": "job assignments/Ogilvy/JS-Test/index.html",
 			"settings":
 			{
-				"buffer_size": 3333,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "README.md",
-			"settings":
-			{
-				"buffer_size": 94,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/Users/arthurbouie/Sites/MEAN STACK/mytestapp/package.json",
-			"settings":
-			{
-				"buffer_size": 241,
+				"buffer_size": 941,
 				"line_ending": "Unix"
 			}
 		}
@@ -617,6 +601,15 @@
 	},
 	"file_history":
 	[
+		"/Users/arthurbouie/Sites/Public Snippets/job assignments/Ogilvy/HTML-Test/style.css",
+		"/Users/arthurbouie/Sites/Public Snippets/job assignments/Ogilvy/HTML-Test/index.html",
+		"/Users/arthurbouie/Sites/Public Snippets/job assignments/Ogilvy/JS-Test/normalize.css",
+		"/Users/arthurbouie/Sites/Public Snippets/job assignments/Ogilvy/HTML-Test/normalize.css",
+		"/Users/arthurbouie/Sites/Public Snippets/README.md",
+		"/Users/arthurbouie/Sites/MEAN STACK/mytestapp/package.json",
+		"/Users/arthurbouie/Sites/Public Snippets/shimmer-notifications-animation",
+		"/Users/arthurbouie/Sites/Public Snippets/css-switcher.js",
+		"/Users/arthurbouie/Sites/Public Snippets/vertical-center.css",
 		"/Users/arthurbouie/Sites/dateFriend/README.md",
 		"/Users/arthurbouie/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
 		"/Users/arthurbouie/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
@@ -735,16 +728,7 @@
 		"/Users/arthurbouie/Sites/client.barker/page/chatDirectorySetup.js",
 		"/Users/arthurbouie/Sites/client.barker/page/chat.html",
 		"/Users/arthurbouie/Sites/client.barker/page/faq.html",
-		"/Users/arthurbouie/Sites/client.barker/page/dj/widget/barker/view/ContactListHeaderView.js",
-		"/Users/arthurbouie/Sites/client.barker/page/css/chat.css",
-		"/Users/arthurbouie/Sites/client.barker/page/dj/util/barker/ResizeUtil.js",
-		"/Users/arthurbouie/Sites/client.barker/page/css/jQueryScroll.css",
-		"/Users/arthurbouie/Sites/client.barker/page/dj/widget/barker/view/RemoveConfirmModalView.js",
-		"/Users/arthurbouie/Sites/client.barker/page/dj/widget/barker/view/RemoveRosterGroupConfirmModalView.js",
-		"/Users/arthurbouie/Sites/client.barker/page/dj/widget/barker/view/NewConfirmModalView.js",
-		"/Users/arthurbouie/Sites/client.barker/page/css/login-styles.css",
-		"/Users/arthurbouie/Sites/client.barker/page/static/landing.html",
-		"/Users/arthurbouie/Sites/client.barker/page/dj/module/barker/Chat.js"
+		"/Users/arthurbouie/Sites/client.barker/page/dj/widget/barker/view/ContactListHeaderView.js"
 	],
 	"find":
 	{
@@ -752,7 +736,7 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 93.0,
 		"where_history":
 		[
 			"/Users/arthurbouie/Sites/dateFriend",
@@ -790,6 +774,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"#responsive",
+			".responsive",
+			".chats-container",
 			"highlight",
 			"high",
 			"navbar",
@@ -914,10 +901,7 @@
 			"isBot",
 			"pop",
 			"minimized",
-			"mini",
-			"tooltip",
-			"minimi",
-			"max"
+			"mini"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -925,6 +909,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"",
+			"#responsive",
+			".responsive",
 			"get",
 			"88448a",
 			"#fff",
@@ -960,101 +947,29 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "vertical-center.css",
+					"file": "job assignments/Ogilvy/JS-Test/js/main.js",
 					"settings":
 					{
-						"buffer_size": 441,
+						"buffer_size": 2664,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								441,
-								441
+								1520,
+								1520
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
-							"auto_name": "/* This parent can be any width and height */",
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "css-switcher.js",
-					"settings":
-					{
-						"buffer_size": 2714,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								39,
-								39
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
+							"auto_name": "var hangman = function(){",
 							"bh_regions":
 							[
 								"bh_regex",
@@ -1103,6 +1018,77 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
+						"translation.y": 718.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "job assignments/Ogilvy/JS-Test/style.css",
+					"settings":
+					{
+						"buffer_size": 207,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								138
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -1110,23 +1096,24 @@
 				},
 				{
 					"buffer": 2,
-					"file": "shimmer-notifications-animation",
+					"file": "job assignments/Ogilvy/JS-Test/index.html",
 					"settings":
 					{
-						"buffer_size": 3333,
+						"buffer_size": 941,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								25,
-								25
+								680,
+								680
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
+							"auto_name": "",
 							"bh_regions":
 							[
 								"bh_regex",
@@ -1170,149 +1157,7 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "README.md",
-					"settings":
-					{
-						"buffer_size": 94,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								94,
-								94
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/Markdown/Markdown.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "/Users/arthurbouie/Sites/MEAN STACK/mytestapp/package.json",
-					"settings":
-					{
-						"buffer_size": 241,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								235,
-								235
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close"
-							],
-							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"syntax": "Packages/AngularJS/AngularJS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
