@@ -2,7 +2,6 @@
 <html>
     <head>
     <title>Animoto Interview Assignment</title>
-        <script type='text/javascript' src='script.js'></script>
         <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="style.css">
   </head>
@@ -11,18 +10,29 @@
             <div class="base-form centered">
                 <h1 class="form-title">Animoto Subscribe</h1>
 
-                <form name="input" action="" method="post" onsubmit="return validateForm();">
+                <form name="input" action="" method="post" onsubmit="return validateForm(); return false;">
                   <label>
                     <span>E-mail:</span>
                     <input type="text" name="email" placeholder="e-mail address">
+                    <span id="emailNotValid" class="error email-message hidden">Please enter a vaild Email address.</span>
                   </label>
                   <label>
                     <span>Password:</span>
-                    <input type="text" name="password" placeholder="password"><span class="user-help"> Your password must contain a combination of at least one number, one uppercase character and one lowercase character.</span>
+                    <input type="text" name="password" placeholder="password"><span class="user-help"> Your password must be 8 to 64 characters long and contains a mix of upper and lower case characters, one numeric and one special character</span>
+                    <span id="passNotValid"class="error pass-message hidden">Please enter a vaild Password address.</span>
                   </label>
                   <input type="submit" value="Send">
                 </form>
             </div>
             <div>
+
+  <script type='text/javascript' src='class-tricks.js'></script>
+  <script type='text/javascript' src='validate.js'></script>
+  <!-- JS PolyFill for Placeholder support in older browsers -->
+  <script type='text/javascript' src='placeholders.min.js'></script>
+  <!--   Used so I don't have to do this to my markup
+  <input type="text" value="Search" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search';}">
+  Yuck!
+   -->
   </body>
 </html>

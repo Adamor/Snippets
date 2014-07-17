@@ -24,6 +24,8 @@
   vertical-align: middle;
 }
 
+/* Form Styles */
+
 .base-form {
   background: #F8F8F8;
   border-radius: 5px;
@@ -32,6 +34,7 @@
   color: #666;
   font: 12px Arial, Helvetica, sans-serif;
   padding: 30px 30px 20px 30px;
+  position: relative;
   text-align: left;
   max-width: 500px;
 }
@@ -51,9 +54,9 @@
 }
 
 .base-form .form-title>span {
+  color: #FFF;
   display: block;
   font-size: 11px;
-  color: #FFF;
 }
 
 .base-form label {
@@ -84,16 +87,49 @@
 }
 
 .base-form .button {
-    background-color: #9DC45F;
-    border-radius: 5px;
+  background-color: #9DC45F;
+  border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-border-radius: 5px;
-    border: none;
-    padding: 10px 25px 10px 25px;
-    color: #FFF;
-    text-shadow: 1px 1px 1px #949494;
+  border: none;
+  color: #FFF;
+  padding: 10px 25px 10px 25px;
+  text-shadow: 1px 1px 1px #949494;
 }
 
 .base-form .button:hover {
     background-color:#80A24A;
+}
+
+/* Helpers */
+
+.hidden{
+  display: none;
+}
+
+
+/* Error Messages */
+
+.base-form label>span.error{
+  background: #DC143C;
+  border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-border-radius: 5px;
+  box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+    -webkit-box-shadow: inset 1px 1px 2px rgba(238, 238, 238, 0.2);
+  color: #fff;
+  height: 15px;
+  padding: 5px 0;
+  position: absolute;
+    right: -205px;
+  text-align: center;
+  width: 220px;
+}
+
+.error.email-message{
+  top: 98px;
+}
+
+.error.pass-message{
+  top: 162px;
 }
